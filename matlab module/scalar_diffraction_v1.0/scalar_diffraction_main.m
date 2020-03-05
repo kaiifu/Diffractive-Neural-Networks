@@ -26,8 +26,7 @@ substrate_abs_coeff = 0;                                                   %abso
 
 
 %% resolution parameters
-resolution_1D = 3;                                                         %resolution required for optimization [default is 3]
-resolution_2D = 3;                                                         %resolution required for post-processing [default is 3]
+resolution_2D = 5;                                                         %resolution required for post-processing [default is 3]
 
 
 %% boundary parameters
@@ -42,7 +41,7 @@ ctrl_flag_post_process_valid = 1;                                          %defa
 ctrl_flag_propagator_krnl = 0;                                             %default 0 (set to 1 to propagate in polymer)
 ctrl_flag_post_valid_1D_psf = 0;                                           %default 0 (set to 1 to view 1D psf)
 ctrl_flag_post_valid_2D_psf = 1;                                           %default 0 (set to 1 to view 2D psf)
-ctrl_flag_post_valid_z_prop = 0;                                           %default 0 (set to 1 to view z propagation)
+ctrl_flag_post_valid_z_prop = 1;                                           %default 0 (set to 1 to view z propagation)
 ctrl_flag_post_valid_1D_pxl = 0;                                           %default 0 (set to 1 to view 1D pixel profile)
 ctrl_flag_post_valid_2D_pxl = 0;                                           %default 0 (set to 1 to view 2D pixel profile)
 

@@ -1,8 +1,4 @@
 function T = transmission_diff_lens_h(dd, r, h)
-% Computes geometry of zone plate based on radii, r. 
-% h is a vector of heights same length as r
-% dd is the 2D Euclidian distance with the center of the lens as origin
-
 if length(h) ~= length(r)
     disp('Error: length of heights not equal to length of radii.\n');
 end

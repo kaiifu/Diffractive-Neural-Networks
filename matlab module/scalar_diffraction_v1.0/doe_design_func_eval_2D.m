@@ -66,6 +66,7 @@ y2 = x2;
 u2 = padarray(u1,[(res_padd-1)/2*M1 (res_padd-1)/2*M1]);
 I2 = abs(u2.^2); 
 
+
 if (ctrl_flag_propagator_krnl == 1)
     n2 = substrate_ref_indx;
     k2 = substrate_abs_coeff;
@@ -74,15 +75,15 @@ else
     lambda = lambda/1;                                                     %air
 end
 
+
 %% Fresnel Propagator
 u3=propTF_2D(u2,L2,lambda,z);                                              %propagation
 
 
-
 %% Construct Observation Field
-x3 = x2;                                                                   %observation field coordinates
+x3 = x2;                                                                   %obs field coordinates
 y3 = y2;
-I3 = abs(u3.^2);                                                           %observation field intensity
+I3 = abs(u3.^2);                                                           %obs field intensity
 [X3,Y3] = meshgrid(x2,x2);
 
 
