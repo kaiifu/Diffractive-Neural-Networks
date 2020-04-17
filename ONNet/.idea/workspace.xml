@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="617760e5-c3b6-4c49-8d8a-74f37b516c48" name="Default Changelist" comment="1)dump_model_params 2)cnn_models">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_cifar.py" beforeDir="false" afterPath="$PROJECT_DIR$/case_cifar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-package/cnn_models/OpticalNet.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-package/cnn_models/OpticalNet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-package/onnet/DiffractiveLayer.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-package/onnet/DiffractiveLayer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-package/onnet/NET_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-package/onnet/NET_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-package/onnet/Net_Instance.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-package/onnet/Net_Instance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-package/onnet/RGBO_CNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-package/onnet/RGBO_CNN.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>BasicBlock</find>
+      <find>DiffractiveLayer</find>
+      <find>GetLayer_</find>
+      <find>transmission</find>
+      <find>pool</find>
+      <find>isDNet</find>
+      <find>dnet_type</find>
+      <find>OptiCNN</find>
+      <find>optim</find>
+      <find>parameters</find>
+      <find>dis_map</find>
+      <find>wav_indices</find>
+      <find>visdom</find>
+      <find>Visualize</find>
+      <find>visual.</find>
+      <find>NET_config</find>
+      <find>weight</find>
+      <find>block</find>
+      <find>Block</find>
+      <find>max_pool</find>
+      <find>hist</find>
+      <find>imshow</find>
+      <find>output_pooling</find>
+      <find>axis</find>
+      <find>cmap</find>
+      <find>MatPlot</find>
+      <find>HeatMap</find>
+      <find>figsize</find>
+      <find>cross</find>
+      <find>softmax</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>optical_trans</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\ONNet\python-package</dir>
+      <dir>E:\ONNet</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="ProjectId" id="1Xn0XYpAxGHyX60fSZ16sVlPQyM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ONNet" />
+      <recent name="E:\ONNet\python-package\net_source" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.case_mnist (1)">
+    <configuration name="OptiCNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ONNet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-package/onnet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\ONNet\python-package\onnet\RGBO_CNN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="OpticalNet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ONNet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-package/cnn_models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-package/cnn_models/OpticalNet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ToExcel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ONNet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-package/onnet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-package/onnet/ToExcel.py" />
+      <option name="PARAMETERS" value="Guided &quot;$PROJECT_DIR$/../Guided Inverse design of SPP structures/images/&quot;" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="case_cifar" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ONNet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case_cifar.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="case_mnist (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ONNet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case_mnist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.OptiCNN" />
+      <item itemvalue="Python.OpticalNet" />
+      <item itemvalue="Python.ToExcel" />
+      <item itemvalue="Python.case_cifar" />
+      <item itemvalue="Python.case_mnist (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.case_mnist (1)" />
+        <item itemvalue="Python.case_cifar" />
+        <item itemvalue="Python.OpticalNet" />
+        <item itemvalue="Python.ToExcel" />
+        <item itemvalue="Python.OptiCNN" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="617760e5-c3b6-4c49-8d8a-74f37b516c48" name="Default Changelist" comment="" />
+      <created>1574826720626</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574826720626</updated>
+      <workItem from="1574826735649" duration="4000" />
+      <workItem from="1574826757791" duration="8166000" />
+      <workItem from="1574928838365" duration="6812000" />
+      <workItem from="1575257277822" duration="599000" />
+      <workItem from="1575271093756" duration="2383000" />
+      <workItem from="1575279357143" duration="4673000" />
+      <workItem from="1575352425152" duration="5195000" />
+      <workItem from="1575363979035" duration="303000" />
+      <workItem from="1575364301832" duration="9478000" />
+      <workItem from="1575441318036" duration="1310000" />
+      <workItem from="1575446611866" duration="3631000" />
+      <workItem from="1575511914470" duration="980000" />
+      <workItem from="1575538304470" duration="4913000" />
+      <workItem from="1575548023586" duration="32000" />
+      <workItem from="1575854483877" duration="10118000" />
+      <workItem from="1575942437754" duration="5484000" />
+      <workItem from="1575956133119" duration="4711000" />
+      <workItem from="1575960893533" duration="13980000" />
+      <workItem from="1576027357008" duration="14630000" />
+      <workItem from="1576049722548" duration="336000" />
+      <workItem from="1576118684693" duration="53769000" />
+      <workItem from="1576392437379" duration="10032000" />
+      <workItem from="1576487887666" duration="5671000" />
+      <workItem from="1576502437709" duration="960000" />
+      <workItem from="1576569699557" duration="591000" />
+      <workItem from="1576632930075" duration="1123000" />
+      <workItem from="1576652915889" duration="3831000" />
+      <workItem from="1576809932761" duration="17524000" />
+      <workItem from="1576896831572" duration="21405000" />
+      <workItem from="1576977292898" duration="19695000" />
+      <workItem from="1577254535535" duration="5465000" />
+      <workItem from="1577260288361" duration="5106000" />
+      <workItem from="1577326000425" duration="27909000" />
+      <workItem from="1577415344048" duration="9015000" />
+      <workItem from="1577441967866" duration="14026000" />
+      <workItem from="1577609161680" duration="17790000" />
+      <workItem from="1577693293065" duration="1248000" />
+      <workItem from="1577755238193" duration="5797000" />
+      <workItem from="1577761326042" duration="6395000" />
+      <workItem from="1577866553866" duration="11853000" />
+      <workItem from="1577933261117" duration="1808000" />
+      <workItem from="1577952655433" duration="13156000" />
+      <workItem from="1578110414827" duration="4136000" />
+      <workItem from="1578140611944" duration="10265000" />
+      <workItem from="1578273700070" duration="5744000" />
+      <workItem from="1578468304010" duration="620000" />
+      <workItem from="1578537413083" duration="16438000" />
+      <workItem from="1578619685122" duration="14583000" />
+      <workItem from="1578641369676" duration="6816000" />
+      <workItem from="1578887651493" duration="13891000" />
+      <workItem from="1578965922972" duration="6723000" />
+      <workItem from="1578973221447" duration="37446000" />
+      <workItem from="1579168079252" duration="803000" />
+      <workItem from="1579512189867" duration="609000" />
+      <workItem from="1579585362482" duration="698000" />
+      <workItem from="1580526818773" duration="957000" />
+      <workItem from="1580530420501" duration="836000" />
+      <workItem from="1580630089366" duration="630000" />
+      <workItem from="1580698391113" duration="621000" />
+      <workItem from="1580788514446" duration="608000" />
+      <workItem from="1580797911954" duration="2721000" />
+      <workItem from="1580973191137" duration="1297000" />
+      <workItem from="1581059436665" duration="1672000" />
+      <workItem from="1581128048177" duration="2262000" />
+      <workItem from="1581318671669" duration="1949000" />
+      <workItem from="1581342276975" duration="4320000" />
+      <workItem from="1581489352620" duration="219000" />
+      <workItem from="1581489668893" duration="2194000" />
+      <workItem from="1581591582061" duration="947000" />
+      <workItem from="1581664436254" duration="337000" />
+      <workItem from="1581665240786" duration="4000" />
+      <workItem from="1581666595920" duration="30000" />
+      <workItem from="1581667658180" duration="670000" />
+    </task>
+    <task id="LOCAL-00002" summary="1)Z_utils 2)D2NNet::Diffractive_">
+      <created>1575424651476</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575424651476</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1)D2NNet_tf 2)fft_test">
+      <created>1575855105253</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575855105253</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1)class COMPLEX_utils 2)case_fft">
+      <created>1575863101063</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575863101063</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1)Z:::ToZ,ifft 2)D2NN_tf">
+      <created>1575873782941</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575873782941</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1)dropout">
+      <created>1575947797139</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575947797139</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1)case:::face_detect,dog_cat">
+      <created>1575965013381</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575965013381</updated>
+    </task>
+    <task id="LOCAL-00008" summary="1)PoolForCls 2)">
+      <created>1575972607049</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1575972607049</updated>
+    </task>
+    <task id="LOCAL-00009" summary="1)Loss 2)H_z=Init_H">
+      <created>1576031161009</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1576031161009</updated>
+    </task>
+    <task id="LOCAL-00010" summary="1)BinaryDNet 2)">
+      <created>1576040819018</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1576040819018</updated>
+    </task>
+    <task id="LOCAL-00011" summary="1)predict 2)__repr__">
+      <created>1576046329662</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1576046329662</updated>
+    </task>
+    <task id="LOCAL-00012" summary="1)Z.sigmoid 2)GatePipe">
+      <created>1576143237027</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1576143237027</updated>
+    </task>
+    <task id="LOCAL-00013" summary="1)Z.phase 2)PoolForCls::chunk_dim 3)">
+      <created>1576219509535</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1576219509535</updated>
+    </task>
+    <task id="LOCAL-00014" summary="1)DiffractiveLayer 2)Z.exp_euler">
+      <created>1576228837415</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1576228837415</updated>
+    </task>
+    <task id="LOCAL-00015" summary="1)D2NNet::chunk 2)ChunkPool,BinaryChunk">
+      <created>1576232105441</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1576232105441</updated>
+    </task>
+    <task id="LOCAL-00016" summary="1)D2NNet:::logit_loss,predict 2)init = &quot;anti_symmetry&quot; 3)ChunkPool::split 4)emnist">
+      <created>1576313345797</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1576313345797</updated>
+    </task>
+    <task id="LOCAL-00017" summary="1)D2NNet:::init_value">
+      <created>1576317082271</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1576317082271</updated>
+    </task>
+    <task id="LOCAL-00018" summary="1)fasion_mnist">
+      <created>1576325964760</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1576325964760</updated>
+    </task>
+    <task id="LOCAL-00019" summary="1)train_trans/test_trans">
+      <created>1576393173874</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1576393173874</updated>
+    </task>
+    <task id="LOCAL-00020" summary="1)MultiDNet 2)DNET_config">
+      <created>1576410304123</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1576410304123</updated>
+    </task>
+    <task id="LOCAL-00021" summary="1)README">
+      <created>1576410362278</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1576410362278</updated>
+    </task>
+    <task id="LOCAL-00022" summary="1)output_chunk 2)split_regions_2d">
+      <created>1576493579116</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1576493579116</updated>
+    </task>
+    <task id="LOCAL-00023" summary="1)D2NNet:::input_trans,do_classify">
+      <created>1576825163292</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1576825163292</updated>
+    </task>
+    <task id="LOCAL-00024" summary="1)shrink 2)train_trans">
+      <created>1576833248846</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1576833248846</updated>
+    </task>
+    <task id="LOCAL-00025" summary="1)shrink 2)train_trans">
+      <created>1576833324009</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1576833324009</updated>
+    </task>
+    <task id="LOCAL-00026" summary="1)visualize">
+      <created>1576913502935</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1576913502935</updated>
+    </task>
+    <task id="LOCAL-00027" summary="1)Visdom_Visualizer 2)wFreq 3)lr_base=0.002">
+      <created>1577091411718</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1577091411718</updated>
+    </task>
+    <task id="LOCAL-00028" summary="1)Net_instance">
+      <created>1577155012442</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1577155012442</updated>
+    </task>
+    <task id="LOCAL-00029" summary="1)chunk:&quot;differential&quot;">
+      <created>1577257760260</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1577257760261</updated>
+    </task>
+    <task id="LOCAL-00030" summary="1)diff_MM,diff_w2">
+      <created>1577326447637</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1577326447637</updated>
+    </task>
+    <task id="LOCAL-00031" summary="1)SuppLayer">
+      <created>1577340958617</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1577340958617</updated>
+    </task>
+    <task id="LOCAL-00032" summary="1)case_cifar 2)sparse_support">
+      <created>1577351481591</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1577351481591</updated>
+    </task>
+    <task id="LOCAL-00033" summary="1)DNet_instance">
+      <created>1577425200680</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1577425200680</updated>
+    </task>
+    <task id="LOCAL-00034" summary="1)Net_Instance">
+      <created>1577606935990</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1577606935990</updated>
+    </task>
+    <task id="LOCAL-00035" summary="1)wnet::DiffractiveWavelet">
+      <created>1577676544707</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1577676544707</updated>
+    </task>
+    <task id="LOCAL-00036" summary="1)GetLayer_ 2)MF_WNet">
+      <created>1577756811231</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1577756811231</updated>
+    </task>
+    <task id="LOCAL-00037" summary="1)visualize,MatPlot 2)MultiDNet::shareWeight">
+      <created>1577772339882</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1577772339882</updated>
+    </task>
+    <task id="LOCAL-00038" summary="1)SUPP 2)MatPlot">
+      <created>1577876809672</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1577876809673</updated>
+    </task>
+    <task id="LOCAL-00039" summary="1)DNET:::image_all,highWay 2)visual::fig2data">
+      <created>1577957188133</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1577957188133</updated>
+    </task>
+    <task id="LOCAL-00040" summary="1)seed_everything 2)custom_legend">
+      <created>1578030324667</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1578030324667</updated>
+    </task>
+    <task id="LOCAL-00041" summary="1)ToExcel 2)paper[2]">
+      <created>1578362112601</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1578362112601</updated>
+    </task>
+    <task id="LOCAL-00042" summary="1)Save 2)Some_Test">
+      <created>1578555155691</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1578555155691</updated>
+    </task>
+    <task id="LOCAL-00043" summary="1)visual::onX 2)test_one_batch">
+      <created>1578564335165</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1578564335165</updated>
+    </task>
+    <task id="LOCAL-00044" summary="1)OptiCNN">
+      <created>1578627178579</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1578627178579</updated>
+    </task>
+    <task id="LOCAL-00045" summary="1)NET_config 2)modulus">
+      <created>1578640567085</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1578640567085</updated>
+    </task>
+    <task id="LOCAL-00046" summary="1)NET_config 2)modulus">
+      <created>1578897966815</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1578897966815</updated>
+    </task>
+    <task id="LOCAL-00047" summary="1)OptiCNN::CNet">
+      <created>1578905980799</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1578905980799</updated>
+    </task>
+    <task id="LOCAL-00048" summary="1)cudnn.benchmark 2)D_input">
+      <created>1578974209121</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1578974209121</updated>
+    </task>
+    <task id="LOCAL-00049" summary="1)vis::onX 2)cifar-SGD">
+      <created>1579081085109</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1579081085109</updated>
+    </task>
+    <task id="LOCAL-00050" summary="1)dump_model_params 2)cnn_models">
+      <created>1579142781109</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1579142781110</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1)shrink 2)train_trans" />
+    <MESSAGE value="1)visualize" />
+    <MESSAGE value="1)Visdom_Visualizer 2)wFreq 3)lr_base=0.002" />
+    <MESSAGE value="1)Net_instance" />
+    <MESSAGE value="1)chunk:&quot;differential&quot;" />
+    <MESSAGE value="1)diff_MM,diff_w2" />
+    <MESSAGE value="1)SuppLayer" />
+    <MESSAGE value="1)case_cifar 2)sparse_support" />
+    <MESSAGE value="1)DNet_instance" />
+    <MESSAGE value="1)Net_Instance" />
+    <MESSAGE value="1)wnet::DiffractiveWavelet" />
+    <MESSAGE value="1)GetLayer_ 2)MF_WNet" />
+    <MESSAGE value="1)visualize,MatPlot 2)MultiDNet::shareWeight" />
+    <MESSAGE value="1)SUPP 2)MatPlot" />
+    <MESSAGE value="1)DNET:::image_all,highWay 2)visual::fig2data" />
+    <MESSAGE value="1)seed_everything 2)custom_legend" />
+    <MESSAGE value="1)ToExcel 2)paper[2]" />
+    <MESSAGE value="1)Save 2)Some_Test" />
+    <MESSAGE value="1)visual::onX 2)test_one_batch" />
+    <MESSAGE value="1)OptiCNN" />
+    <MESSAGE value="1)NET_config 2)modulus" />
+    <MESSAGE value="1)OptiCNN::CNet" />
+    <MESSAGE value="1)cudnn.benchmark 2)D_input" />
+    <MESSAGE value="1)vis::onX 2)cifar-SGD" />
+    <MESSAGE value="1)dump_model_params 2)cnn_models" />
+    <option name="LAST_COMMIT_MESSAGE" value="1)dump_model_params 2)cnn_models" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python-package/net_source/try_tensor.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python-package/net_source/try_tensor.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python-package/net_source/try_tensor.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python-package/net_source/try_tensor.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python-package/net_source/try_tensor.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python-package/onnet/D2NN_tf.py</url>
+          <line>104</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python-package/onnet/Z_utils.py</url>
+          <line>173</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python-package/onnet/BinaryDNet.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python-package/onnet/DiffractiveLayer.py</url>
+          <line>138</line>
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python-package/onnet/Visualizing.py</url>
+          <line>151</line>
+          <option name="timeStamp" value="336" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python-package/onnet/DiffractiveLayer.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="343" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python-package/onnet/Visualizing.py</url>
+          <line>267</line>
+          <option name="timeStamp" value="356" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python-package/onnet/DiffractiveLayer.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="364" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Anaconda3/Lib/site-packages/torchvision/models/resnet.py</url>
+          <line>162</line>
+          <option name="timeStamp" value="394" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Anaconda3/Lib/site-packages/torchvision/models/resnet.py</url>
+          <line>164</line>
+          <option name="timeStamp" value="395" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python-package/onnet/Visualizing.py</url>
+          <line>178</line>
+          <option name="timeStamp" value="477" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/case_mnist.py</url>
+          <line>290</line>
+          <option name="timeStamp" value="499" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="x.shape" />
+        <watch expression="self" />
+        <watch expression="output" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ONNet$case_dog_cat.coverage" NAME="case_dog_cat Coverage Results" MODIFIED="1575962483412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-package" />
+    <SUITE FILE_PATH="coverage/ONNet$case_cifar.coverage" NAME="case_cifar Coverage Results" MODIFIED="1579152918827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ONNet$Visualizing.coverage" NAME="Visualizing Coverage Results" MODIFIED="1576899680449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-package/onnet" />
+    <SUITE FILE_PATH="coverage/ONNet$BinaryDNet.coverage" NAME="BinaryDNet Coverage Results" MODIFIED="1576119870151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-package/onnet" />
+    <SUITE FILE_PATH="coverage/ONNet$ToExcel.coverage" NAME="ToExcel Coverage Results" MODIFIED="1579082694004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-package/onnet" />
+    <SUITE FILE_PATH="coverage/ONNet$case_mnist___.coverage" NAME="case_mnist - 副本 Coverage Results" MODIFIED="1575363618084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-package/net_source" />
+    <SUITE FILE_PATH="coverage/ONNet$D2NN_tf__1_.coverage" NAME="D2NN_tf (1) Coverage Results" MODIFIED="1575542940093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-package/net_source" />
+    <SUITE FILE_PATH="coverage/ONNet$D2NNet.coverage" NAME="D2NNet Coverage Results" MODIFIED="1578622169653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-package/onnet" />
+    <SUITE FILE_PATH="coverage/ONNet$case_fft.coverage" NAME="case_fft Coverage Results" MODIFIED="1575873179511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-package" />
+    <SUITE FILE_PATH="coverage/ONNet$SparseSupport.coverage" NAME="SparseSupport Coverage Results" MODIFIED="1577345365220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-package/onnet" />
+    <SUITE FILE_PATH="coverage/ONNet$D2NN_tf.coverage" NAME="D2NN_tf Coverage Results" MODIFIED="1575956639323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-package/onnet" />
+    <SUITE FILE_PATH="coverage/ONNet$PoolForCls.coverage" NAME="PoolForCls Coverage Results" MODIFIED="1576827735713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-package/onnet" />
+    <SUITE FILE_PATH="coverage/ONNet$test_1.coverage" NAME="test_1 Coverage Results" MODIFIED="1574833886089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-package" />
+    <SUITE FILE_PATH="coverage/ONNet$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1576933334938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Anaconda3/Lib/site-packages/torchvision/datasets" />
+    <SUITE FILE_PATH="coverage/ONNet$case_mnist__1_.coverage" NAME="case_mnist (1) Coverage Results" MODIFIED="1579158597275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ONNet$case_face_detect.coverage" NAME="case_face_detect Coverage Results" MODIFIED="1575964746628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-package" />
+    <SUITE FILE_PATH="coverage/ONNet$DiffractiveLayer.coverage" NAME="DiffractiveLayer Coverage Results" MODIFIED="1578639364268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-package/onnet" />
+    <SUITE FILE_PATH="coverage/ONNet$case_mnist.coverage" NAME="case_mnist Coverage Results" MODIFIED="1576328212748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-package" />
+    <SUITE FILE_PATH="coverage/ONNet$OptiCNN.coverage" NAME="OptiCNN Coverage Results" MODIFIED="1578978087249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-package/onnet" />
+    <SUITE FILE_PATH="coverage/ONNet$try_tensor.coverage" NAME="try_tensor Coverage Results" MODIFIED="1575453260380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-package/net_source" />
+    <SUITE FILE_PATH="coverage/ONNet$OpticalNet.coverage" NAME="OpticalNet Coverage Results" MODIFIED="1579140788667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-package/cnn_models" />
+  </component>
+</project>
